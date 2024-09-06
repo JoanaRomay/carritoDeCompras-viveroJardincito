@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+main{
+    /* display: flex; */
+    padding: 2% 10%;
+}
+.containerCarrito {
+    /* width: 70%; */
+    margin: 5% auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+
+    display: flex;
+    gap: 10rem;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+td {
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.producto img {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-right: 15px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.cantidad {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cantidad button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cantidad input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.borrar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #888;
+
+    font-size: x-large; /*agrande el tachito de delete*/
+    font-weight: 600; /*Le di un poco mas de grosor a las lineas del tachito de delete*/
+}
+
+.borrar:hover {
+    color: #333;
+}
+
+
+
+/*-----------------------*/
+/*Desde aca son los estilos de la section "resumen"*/
+/*-----------------------*/
+
+
+
+.resumen{
+    background-color: #fff;
+    width: 30%; /*Aguregue este ancho para que el titulo de "resumen de compra se vea en un mismo renglon"*/
+}
+.resumen h2{
+    font-size: 2rem;
+    /* width: 30%; */ /*quite este width que hacia que el h2 del resumen ocupe solo un 30% del ancho y hacia que el texto sobresalga del contenedor*/
+}
+.resumen p{
+    font-size: 2rem;
+}
+.resumen button{
+    /* width: 15rem;
+    font-size: 1.5rem;
+    height: 2rem; */
+    font-size: 1.5rem;
+    padding: 2% 5%;
+    border-radius: 10px;
+    margin: 2rem 0;
+    font-family: "Marcellus";
+    cursor: pointer;
+
+    /*copie los estilos del boton de las card para que tengan sintonia*/
+}
+
+.p-total{
+    margin-top: 10%;
+}
+

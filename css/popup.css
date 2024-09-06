@@ -1,0 +1,143 @@
+.submenu {
+    position: absolute;
+    right: 40px;
+    transform: translateY(130%);
+    margin: 1rem 0;
+}
+
+#submenu-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    
+  }
+  
+/* .submenu:hover .submenu-content {
+    display:flex;
+    flex-direction: column; 
+} */
+
+.cont-carrito-compras{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    top:109px;
+    
+    background-color: white;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+
+th,
+td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+td {
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.producto img {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-right: 15px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.cantidad {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cantidad button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cantidad input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.borrar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #888;
+
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.borrar:hover {
+    color: #333;
+}
+
+div.producto-C{
+    font-size: 2rem;
+
+}
+
+div.cantidad-C{
+    font-size: 2rem;
+}
+
+button.borrar-C{
+    font-size: 2rem;
+}
+
+.cantidad-C{
+    display: flex;
+}
+
+.cantidad-C input{
+    margin: 10px;
+}
+
+.borrar-C, .btn-popup{
+    width: 25px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 0;
+    border: none;
+    
+}
+
+.borrar-C{
+    font-size: large;
+    font-weight: 600;
+}
